@@ -19,7 +19,7 @@ server.route({
     method: 'GET',
     path: '/contentdetails',
     handler: function (request, reply) {
-      var responseData = {'response' : ['content1', 'content2', 'content3', 'content4', 'content5']};
+      var responseData = {'response' : ['Content 1', 'Content 2', 'Content 3', 'Content 4', 'Content 5']};
         reply(responseData);
     }
 });
