@@ -12,7 +12,7 @@ RUN apt-get install -y nodejs
 RUN apt-get install -y nodejs-legacy
 RUN apt-get install -y npm
 
-### Install forever packages  ####
+### Install forever packages ####
 
 RUN npm install forever
 
