@@ -4,5 +4,5 @@ node {
 	stage 'Build Docker Image'
 		sh "sudo docker build -t node_view_model ."
 	stage 'Run Docker Container'
-		sh "sudo docker run --name node_view_model -p 3004:3004 -d node_view_model"
+		sh "sudo docker run --name node_view_model -p 3002:3002 -d node_view_model"
 }
